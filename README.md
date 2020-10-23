@@ -14,7 +14,7 @@ Write an interface for a data structure that can provide the moving average of t
 
 ### Intiution
 
-The intution behind the solution was to solve using a sliding window approach. Data structure keeps track of last N elements added to the data structure using a sliding window. The element is added to the end of the list. This approcah allows us to access the moving average in constant time.
+The intution behind the solution was to solve using a sliding window approach. Data structure keeps track of last N elements added to the data structure using a sliding window. The element is added to the end of the list. This approach allows us to access the moving average in constant time.
 
 To support the above approach and be able to have access to the elements list based structure is feasible.
 
