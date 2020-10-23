@@ -14,7 +14,7 @@ Write an interface for a data structure that can provide the moving average of t
 
 ### Intiution
 
-The intution behind the solution was to solve using a sliding window approach. Data structure keeps track of last N elements added to the data structure using a sliding window. The element is added to the end of the list. This approach allows us to access the moving average in constant time.
+The intution behind the solution was to solve using a **sliding window** approach. Data structure keeps track of last N elements added to the data structure using a sliding window. The element is added to the end of the list. This approach allows us to access the moving average in constant time.
 
 To support the above approach and be able to have access to the elements list based structure is feasible.
 
@@ -22,13 +22,13 @@ I have created 2 implementation for the above problem, one using a custom Linked
 
 Both the implementations provide you with follwoing methods:
 
-getAverage() - Returns the moving average as a double value.
+**getAverage()** - Returns the moving average as a double value.
 
-add(long value) - Adds element at the end of the list.
+**add(long value)** - Adds element at the end of the list.
 
-get(int index) - Returns the element at that index as a long value.
+**get(int index)** - Returns the element at that index as a long value.
 
-getSize(int index) - Returns size of the list as an int value.
+**getSize(int index)** - Returns size of the list as an int value.
 
 There are some trade offs between the two implemetations which is explained below.
 
@@ -36,7 +36,7 @@ There are some trade offs between the two implemetations which is explained belo
 
 - Get is always done in constant time.
   Time Complexity: O(1).
-- Addition is done in constant mostly but in worst case is done in linear time because array needs to be resized and copied.
+- Addition is done in constant time in most cases but in worst case is done in linear time because array needs to be resized and copied.
   Time Complexity: O(1) amortized, O(n) worst case.
 - Get Moving Average  is always done in constant time.
   Time Complexity: O(1).
