@@ -68,4 +68,4 @@ We need to provide Google Analytic like services to our customers. Please provid
 5. Have the ability to reprocess historical data in case of bugs in the processing logic.
 
 ## Design Solution
-GA like Analytics System.pdf (Design Solution/GA like Analytics System.pdf)
+GA like Analytics System.pdf (**_Design Solution/GA like Analytics System.pdf_**)
